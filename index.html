@@ -7,11 +7,11 @@
   </head>
   <body>
 	<header class="main-header">
-	  <div class="container">
+	  <div class="container clearfix">
+	    <nav class="main-navigation">
 		<a class="main-logo" href="#">
 		  <img src="img/nerds-logo.png" width="160" height="65" alt="Nerd's">        	
-		</a>
-		<nav class="main-navigation">
+		</a>		
 		  <ul>
 			<li>
 			  <a href="#">Студия</a>	
@@ -32,41 +32,47 @@
 		</div>		
 	  </div>	  
 	</header>
-	<main class="container">
-	  <div class="slider">
-	    <div class="slide-1">
+	<main class="container clearfix">
+	  <div class="slider clearfix">
+	    <div class="slider-1 clearfix">
+	      <div class="slider-info">
 	      <h2 class="slider-head">
 	        Долго, дорого, скрупулезно.	
 	      </h2>
-	      <p>
+	      <p class="slider-text">
 	        Математически выверенный дизайн
 	        для вашего сайта или мобильного приложения.	
-	      </p>	      
+	      </p>
+	      <a class="slider-more" href="#">Узнать больше</a>
+	      </div>	      
 	    </div>
-	    <div class="slide-2">
+	    <!--
+	    <div class="slider-2">
 	      <h2 class="slider-head">
 	      	Любим математику как никто другой
 	      </h2>
-	      <p>
+	      <p class="slider-text">
 	        Никакого креатива, только математические формулы для расчета идеальных пропорций.	
-	      </p>	    	
+	      </p>
+	      <a class="slider-more" href="#">Узнать больше</a>	    	
 	    </div>
-	    <div class="slide-3">
+	    <div class="slider-3">
 	      <h2 class="slider-head">
 	      	Только ночь, только хардкор
 	      </h2>
-	      <p>
+	      <p class="slider-text">
 	      	Работать днем, как все? Мы против этого. Ближе к полуночи работа только начинается.
-	      </p>	
+	      </p>
+	      <a class="slider-more" href="#">Узнать больше</a>	
 	    </div>
-	    <a class="slider-more" href="#">Узнать больше</a>
+	    -->	    
 	    <div class="slider-control">
 	      <input type="radio" name="slide">
 	      <input type="radio" name="slide">
 	      <input type="radio" name="slide">
 	    </div>
   	  </div>
-	  <section class="advantages">
+	  <section class="advantages clearfix">
 	    <div class="advantages-item">
 	      <img src="img/illustration-1.jpg" width="300" height="146" alt="">
 	      <h3>Веб-сайты</h3>
@@ -92,7 +98,7 @@
 	  	  <a class="advant-btn" href="#">Заказать</a>
 	    </div>	
 	  </section>
-	  <section class="about-us">
+	  <section class="about-us clearfix">
 	    <div class="about-left">
 	      <p><b>Мы - маленькая, но гордая
 	      дизайн-студия из Краснодара.</b>	    	
@@ -123,32 +129,33 @@
 	      </ul>  	
 	    </div>
 	  </section>
-	  <div class="partners">
+	  <div class="partners clearfix">
 	    <a href="#">
-	    	<img src="img/logo-1.png" width="203" height="67" alt="HTML academy">
+	    	<img src="img/logo-1.png" width="206" height="67" alt="HTML academy">
 	    </a>
 	    <a href="#">
-	    	<img src="img/logo-2.png" width="203" height="67" alt="Barbershop Borodinski">
+	    	<img src="img/logo-2.png" width="206" height="67" alt="Barbershop Borodinski">
 	    </a>
 	    <a href="#">
-	    	<img src="img/logo-3.png" width="203" height="67" alt="Pink">
+	    	<img src="img/logo-3.png" width="206" height="67" alt="Pink">
 	    </a>
 	    <a href="#">
-	    	<img src="img/logo-4.png" width="203" height="67" alt="Mishka">
+	    	<img src="img/logo-4.png" width="206" height="67" alt="Mishka">
 	    </a>	
 	  </div>
 	</main>
 	<footer class="main-footer">
-	  <div class="container">
+	  <div class="container clearfix">
 	    <img src="img/map.jpg" width="1440" height="416" alt="Где мы находимся">	    
 	    <div class="footer-contacts">
 	      <b>Nёrds design studio</b><br>
 	      191186, Санкт-Петербург,<br>
 	      ул. Б. Конюшенная, д. 19/8<br>	      
 	      тел. +7(812)275-75-75<br>
-	      <button>Напишите нам</button>
+	      <button type="button">Напишите нам</button>
 	    </div>
 	    <div class="footer-social">
+	      <div class="">
 	      <a class="social-btn social-btn-vk" href="#">Вконтакте</a>
           <a class="social-btn social-btn-fb" href="#">Фейсбук</a>
           <a class="social-btn social-btn-inst" href="#">Инстаграм</a>
