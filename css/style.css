@@ -6,26 +6,22 @@ body {
   line-height: 100%;
 }
 
-.clearfix::after {
-  content: "";
-
-  display: table;
-  clear: both;
-}
-
 .container { 
   width: 1200px;
   margin: 0 auto;
   padding: 0 20px;
 }
 
+.main-header-layout {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
 .main-navigation {
-  float: left;
-  width: 960px;	
+   width: 960px;	
 }
 
 .basket {
-  float: right;
   width: 160px;
   text-align: right;
 }
@@ -36,69 +32,64 @@ body {
 }
 
 .slide-info {
-  float: left;
   width: 430px;
-  border: 2px  solid red;
+}
+
+.advantages {
+  display: flex;   
+  flex-wrap: wrap;
 }
 
 .advantages-item {
-  float: left;
   width: 300px;  
   margin-right: 100px;
   margin-bottom: 80px;
 }
 
-.advantages-item:last-child {
-	margin-right: 60px;
+.about-us {
+  display: flex;
+  justify-content: space-between;
 }
-
 .about-left {
-	float: left;
 	width: 660px;
 	margin-top: 80px;
 }
 
 .about-right {
-	float: right;
 	width: 360px;
 	margin-top: 40px;
 	margin-bottom: 80px;
 }
 
-.partners > a {
-	float: left;
-	width: 265px;	
-	margin-right: 40px;
-  padding: 40px 0;
-  text-align: center;  
+.partners {
+  display: flex; 
+  justify-content: space-around;
 }
 
-.partners > a:last-child {
-	margin-right: 0;
+.partners > a {
+	width: 265px;		
+  padding: 40px 0;
+  text-align: center;  
 }
 
 .main-footer {
   margin-top: 40px;
 }
 .footer-contacts {
-	float: left;
 	width: 319px;
 	height: 308px;	
 }
 
 .footer-social {
-	float: left;
 	width: 965px;
 }
 
 .footer-btn {
-  float: left;
   width: 260px;
   margin-right: 120px;
 }
 
 .footer-text {
-  float: right;
   width: 580px;
 }
 
@@ -106,7 +97,6 @@ body {
 /*Магазин готовых шаблонов */
 
 h1 {
-  float: left;
   margin-left: 200px;
   margin-bottom: 116px;
   padding-left: 20px;
@@ -115,37 +105,28 @@ h1 {
 }
 
 .filter {
-  float: left;
   width: 260px;  
   margin-top: 57px;
 }
 
 .sort {
-  float: right;
   width: 760px;
   margin-top: 57px;
   margin-bottom: 48px;
 }
 
 .main-products {
-  float: right;
   width: 760px;
   margin-bottom: 24px;  
 }
 
 .product-card {
-  float: left;
   width: 360px;
   margin-right: 40px;
   margin-bottom: 36px;
 }
 
-.product-card:nth-child(2n) {
-  margin-right: 0;
-}
-
 .paginator {
-  float: right;
   width: 760px;
   margin-bottom: 
 }
