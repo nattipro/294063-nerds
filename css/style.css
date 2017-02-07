@@ -164,46 +164,58 @@ h1 {
 }
 
 
-/*
-.paginator {
-  float: right;
-  width: 760px;
-  margin-bottom:  
-}
-*/
-
-
-/*
-.slider-head {
-	float: left;
-	
-	height: 110px;
-}
-.slider-text {
-	float: left;
-	
+.sprite {
+    background-image: url(spritesheet.png);
+    background-repeat: no-repeat;
+    display: block;
 }
 
-.slider-more {
-	float: left;
-	width: 132px;
-	height: 18px;
-	font-size: 14px;
-	font-weight: medium;
-	line-height: 18px;
-	padding: 16px 54px;
+.sprite-cart-icon {
+    width: 15px;
+    height: 15px;
+    background-position: -5px -5px;
 }
 
-/*
-h2 {	
-	font-size: 55px;
-	font-weight: medium;	
-	line-height: 55px;
+.sprite-checkbox-off {
+    width: 23px;
+    height: 23px;
+    background-position: -5px -30px;
 }
-h3 {	
-	font-size: 24px;
-	font-weight: bold;	
-	line-height: 30px;
+
+.sprite-checkbox-on {
+    width: 27px;
+    height: 23px;
+    background-position: -5px -63px;
+}
+
+.sprite-icon-fb {
+    width: 12px;
+    height: 22px;
+    background-position: -5px -96px;
+}
+
+.sprite-icon-insta {
+    width: 21px;
+    height: 21px;
+    background-position: -5px -128px;
+}
+
+.sprite-icon-vk {
+    width: 26px;
+    height: 15px;
+    background-position: -5px -159px;
+}
+
+.sprite-radio-off {
+    width: 25px;
+    height: 25px;
+    background-position: -5px -184px;
+}
+
+.sprite-radio-on {
+    width: 25px;
+    height: 25px;
+    background-position: -5px -219px;
 }
 
 
