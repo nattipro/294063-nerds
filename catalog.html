@@ -3,6 +3,7 @@
   <head>
 	<meta charset="utf-8">
 	<title>Магазин готовых шаблонов</title>
+	<link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700&amp;subset=cyrillic" rel="stylesheet">
 	<link rel="stylesheet" href="css/normalize.css">
 	<link href="css/style.css" rel="stylesheet">
   </head>
@@ -47,59 +48,43 @@
 	        <input type="text" name="max-price" value="15000">	      
 	    </div>
 	    <div class="grid">
-	      <ul>
-            <li>
-              <label>
-                <input type="radio" name="grid-groups" value="adaptive">
-                <span>Адаптивная</span>
-              </label>
+	      <ul class="grid-list">
+            <li>              
+               <input type="radio" name="grid-groups" value="adaptive" id="rd1">
+               <label for="rd1"><span>Адаптивная</span></label>              
             </li>
-            <li>
-              <label>
-              	<input type="radio" name="grid-groups" value="fixed">
-              	<span>Фиксированная</span>
-              </label>
+            <li>              
+              <input type="radio" name="grid-groups" value="fixed" id="rd2">
+              <label for="rd2"><span>Фиксированная</span></label>              
             </li>
-            <li>
-              <label>
-              	<input type="radio" name="grid-groups" value="rubber">
-              	<span>Резиновая</span>
-              </label>
+            <li>              
+              <input type="radio" name="grid-groups" value="rubber" id="rd3">
+              <label for="rd3"><span>Резиновая</span></label>              
             </li>        	
           </ul>	    	
 	    </div>
 	    <div class="qualities">
 	      <b>Особенности:</b>
-	      <ul>
-	      	<li>
-	      	  <label>
-	      	  	<input type="checkbox" name="slider">
-	      	  	<span>Слайдер</span>
-	      	  </label>
+	      <ul class="qualities-list">
+	      	<li>	      	  
+	      	  <input type="checkbox" name="slider" id="ch1">
+	      	  <label for="ch1"><span>Слайдер</span></label>	      	  
 	      	</li>
-	      	<li>
-	      	  <label>
-	      	  	<input type="checkbox" name="advantage">
-	      	  	<span>Блок преимуществ</span>
-	      	  </label>
+	      	<li>	      	  
+	      	  <input type="checkbox" name="advantage" id="ch2">
+	      	  <label for="ch2"><span>Блок преимуществ</span></label>	      	  
 	      	</li>
-	      	<li>
-	      	  <label>
-	      	  	<input type="checkbox" name="news">
-	      	  	<span>Новости</span>
-	      	  </label>
+	      	<li>	      	  
+	      	  <input type="checkbox" name="news" id="ch3">
+	      	  <label for="ch3"><span>Новости</span></label>	      	  
 	      	</li>
-	      	<li>
-	      	  <label>
-	      	  	<input type="checkbox" name="galery">
-	      	  	<span>Галерея</span>
-	      	  </label>
+	      	<li>	      	  
+	      	  <input type="checkbox" name="galery" id="ch4">
+	      	  <label for="ch4"><span>Галерея</span></label>	      	  
 	      	</li>
-	      	<li>
-	      	  <label>
-	      	  	<input type="checkbox" name="bascet">
-	      	  	<span>Корзина</span>
-	      	  </label>
+	      	<li>	      	  
+	      	  <input type="checkbox" name="bascet" id="ch5">
+	      	  <label for="ch5"><span>Корзина</span></label>	      	  
 	      	</li>
 	      </ul>	    	
 	    </div>

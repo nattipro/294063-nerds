@@ -2,8 +2,9 @@ body {
 	margin: 0;
 	padding: 0;
 	font-size: 100%;
-  font-family: "Roboto", sans-serif;    
-  line-height: 1;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;    
+  line-height: 18px;
 }
 
 .clearfix::after {
@@ -172,6 +173,96 @@ h1 {
   float: left;
   width: 260px;  
   margin-top: 57px;
+}
+
+.grid-list {
+  list-style: none;
+  padding: 0;
+}
+
+input[type="radio"] {
+  display: none;  
+}
+
+input[type="radio"] + label {
+  display: block;
+  margin: 15px 0;
+  line-height: 18px;
+  padding-left: 35px;
+  position: relative;
+  cursor: pointer;
+}
+
+input[type="radio"] + label::before {
+  content: "";
+  display: block;
+  width: 25px;
+  height: 25px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-image: url("../img/sprite.png");
+  background-repeat: no-repeat;
+  width: 25px;
+  height: 25px;
+  background-position: -5px -184px;
+}
+
+input[type="radio"]:checked + label::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-image: url("../img/sprite.png");
+  background-repeat: no-repeat;
+  width: 25px;
+  height: 25px;
+  background-position: -5px -219px;
+}
+
+.qualities-list {
+  list-style: none;
+  padding: 0;
+}
+
+input[type="checkbox"] {
+  display: none;
+}
+
+input[type="checkbox"] + label {
+  display: block;
+  margin: 10px 0;
+  line-height: 22px;
+  padding-left: 35px;
+  position: relative;
+  cursor: pointer;
+}
+
+input[type="checkbox"] + label::before {
+  content: "";
+  display: block;
+  width: 27px;
+  height: 23px; 
+  position: absolute; 
+  top: 0;
+  left: 0;
+  background-image: url("../img/sprite.png");
+  background-repeat: no-repeat;
+  width: 23px;
+  height: 23px;
+  background-position: -5px -30px;
+}
+
+input[type="checkbox"]:checked + label::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-image: url("../img/sprite.png");
+  background-repeat: no-repeat;
+  width: 27px;
+  height: 23px;
+  background-position: -5px -63px;
 }
 
 .sort {
