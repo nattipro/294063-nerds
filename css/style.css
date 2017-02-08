@@ -97,6 +97,48 @@ body {
   margin-right: 120px;
 }
 
+.social-btn {
+  display: inline-block;
+  vertical-align: top;
+  width: 78px;
+  height: 78px;
+  font-size: 0;
+  background-color: #e1e1e1;
+  position: relative;
+}
+
+.social-btn::hover {
+  background-color: rgb(231, 66, 70);
+}
+
+.social-btn::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-image: url("../img/sprite.png");
+  background-repeat: no-repeat;
+}
+
+.social-btn-vk::before {
+  width: 26px;
+  height: 15px;
+  background-position: -5px -159px;
+}
+
+.social-btn-fb::before {
+  width: 12px;
+  height: 22px;
+  background-position: -5px -96px;
+}
+
+.social-btn-inst::before {
+  width: 21px;
+  height: 21px;
+  background-position: -5px -128px;
+}
+
 .footer-text {
   float: right;
   width: 580px;
@@ -194,7 +236,7 @@ h1 {
     background-position: -5px -96px;
 }
 
-.sprite-icon-insta {
+.sprite-icon-inst {
     width: 21px;
     height: 21px;
     background-position: -5px -128px;
@@ -224,6 +266,8 @@ h1 {
 /*======================================
  Системное оформление - не изменять
 =======================================*/
+
+/*
 
 body {
   padding: 3px;
