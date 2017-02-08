@@ -107,7 +107,7 @@ body {
   position: relative;
 }
 
-.social-btn::hover {
+.social-btn:hover {
   background-color: rgb(231, 66, 70);
 }
 
