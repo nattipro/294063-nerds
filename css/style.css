@@ -291,11 +291,9 @@ input[type="checkbox"]:checked + label::after {
 
 
 .paginator {
- clear: both;
-  text-align: center;
-  margin-bottom: 60px;
+ float: left;
+ width: 760px;
 }
-
 
 .sprite {
     background-image: url("../img/sprite.png");
@@ -358,7 +356,7 @@ input[type="checkbox"]:checked + label::after {
  Системное оформление - не изменять
 =======================================*/
 
-/*
+
 
 body {
   padding: 3px;
