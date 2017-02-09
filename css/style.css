@@ -20,9 +20,20 @@ body {
   padding: 0 20px;
 }
 
+.main-header {
+  margin-bottom: 57px;
+
+
+
+
+
+
+
+}
+
 .main-navigation {
   float: left;
-  width: 960px;	
+  width: 960px;
 }
 
 .basket {
@@ -172,7 +183,6 @@ h1 {
 .filter {
   float: left;
   width: 260px;  
-  margin-top: 57px;
 }
 
 .grid-list {
@@ -268,7 +278,6 @@ input[type="checkbox"]:checked + label::after {
 .sort {
   float: right;
   width: 760px;
-  margin-top: 57px;
   margin-bottom: 48px;
 }
 
@@ -288,7 +297,6 @@ input[type="checkbox"]:checked + label::after {
 .product-card:nth-child(2n) {
   margin-right: 0;
 }
-
 
 .paginator {
  float: left;
