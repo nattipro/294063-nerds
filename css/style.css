@@ -275,6 +275,11 @@ input[type="checkbox"]:checked + label::after {
   background-position: -5px -63px;
 }
 
+.right-column {
+  float: right;
+  width: 760px;
+}
+
 .sort {
   float: right;
   width: 760px;
