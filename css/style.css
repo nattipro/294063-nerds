@@ -1,10 +1,9 @@
 body {	
 	margin: 0;
-	padding: 0;
-	font-size: 100%;
-  font-family: "Roboto", sans-serif;
+	padding: 0;	
   font-size: 16px;    
   line-height: 18px;
+  font-family: "Roboto", sans-serif;  
 }
 
 .clearfix::after {
@@ -22,24 +21,93 @@ body {
 
 .main-header {
   margin-bottom: 57px;
+  color: #000000;
+  background-color: #eeeeee;
+}
 
+.main-logo {
+  float: left;
+  width: 160px;
+  margin-right: 40px;
+}
 
-
-
-
-
-
+.main-logo img {
+  padding-top: 49px;  
 }
 
 .main-navigation {
   float: left;
-  width: 960px;
+  width: 760px;
+  margin-right: 40px;
 }
 
-.basket {
+.main-navigation ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  font-size: 0; 
+}
+
+.main-navigation li {
+  display: inline-block;
+  padding-top: 75px; 
+  padding-right: 46px;
+  font-size: 16px;
+  line-height: 30px;
+  font-weight: 500;      /*medium*/
+  vertical-align: top;
+  text-transform: uppercase;
+}
+
+.main-navigation li:first-child {
+  padding-left: 160px;
+}
+
+.main-navigation a {
+  display: block;   
+  text-decoration: none;
+  color: #000000;  
+}
+
+.main-navigation a:hover {
+  color: #d7373b; 
+}
+
+.main-basket {
   float: right;
-  width: 160px;
+  max-width: 160px;
   text-align: right;
+}
+
+.enter-basket {
+  position: relative;
+  display: inline-block;
+  padding-top: 75px;
+  padding-left: 85px; 
+  font-size: 16px;
+  line-height: 30px;
+  font-weight: 500;
+  vertical-align: top;
+  color: #000000;
+  text-decoration: none;
+  text-transform: uppercase;  
+}
+
+.enter-basket:hover {
+  color: #d7373b;
+}
+
+.enter-basket::before {
+  content: "";
+  position: absolute;
+  top: 82px;
+  left: 45px;
+  width: 15px;
+  height: 15px;
+  background-position: -5px -5px;  
+  background-image: url("../img/sprite.png");
+  background-repeat: no-repeat;
+  opacity: 0.3;
 }
 
 .slider {	
@@ -286,9 +354,7 @@ input[type="checkbox"]:checked + label::after {
   margin-bottom: 48px;
 }
 
-.main-products {
-  float: right;
-  width: 760px;
+.main-products {  
   margin-bottom: 24px;  
 }
 
@@ -304,8 +370,7 @@ input[type="checkbox"]:checked + label::after {
 }
 
 .paginator {
- float: left;
- width: 760px;
+ 
 }
 
 .sprite {
@@ -370,7 +435,7 @@ input[type="checkbox"]:checked + label::after {
 =======================================*/
 
 
-
+/*
 body {
   padding: 3px;
 }
