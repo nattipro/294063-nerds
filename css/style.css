@@ -3,6 +3,7 @@ body {
 	padding: 0;	
   font-size: 16px;    
   line-height: 18px;
+  font-weight: 500;
   font-family: "Roboto", sans-serif;  
 }
 
@@ -545,32 +546,108 @@ h3 {
 
 h1{
 clear: both;
+padding-top: 82px;
 text-align: center;
 font-size: 55px;
 line-height: 57px;
 margin-bottom: 116px;
 }
 
-
-/*
-h1 {
-  float: left;
-  margin-left: 200px;
-  margin-bottom: 116px;
-  padding-left: 20px;
-  font-size: 55px;
-  line-height: 57px;
-}
-*/
-
 .filter {
   float: left;
-  width: 260px;  
+  width: 260px; 
+  color: #283136;
 }
 
-.grid-list {
-  list-style: none;
+.filter b {
+  font-size: 18px;
+  line-height: 30px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.range-filter {
+  width: 260px;
+  margin-top: 56px;
+}
+
+.range-controls {
+  position: relative;
+  height: 41px;  
+  margin-bottom: 15px;
+  padding: 0 20px;
+  padding-top: 39px;
+  border-radius: 5px;
+  background: #eeeeee;
+}
+
+.range-controls .scale {
+  height: 2px;
+  background: #d7dcde;
+}
+
+.range-controls .bar {
+  width: 70%;
+  height: 2px;
+  background: #00ca74;
+}
+
+.range-controls .toggle {
+  position: absolute;
+  top: 30px;
+  left: 0px;
+  width: 4px;
+  height: 4px;
+  cursor: pointer;
+  border: 8px solid #ffffff;
+  border-radius: 50%;
+  background: #ababab;
+  box-shadow: 0 2px 1px 0 #cfcfcf;
+}
+
+.range-controls .toggle-min {
+  left: 20px;
+}
+
+.range-controls .toggle-max {
+  left: 160px;
+}
+
+.price-controls {
+  font-size: 0;
+}
+
+.price-controls label {
+  font-size: 16px;
+  line-height: 22px;
+  display: inline-block;
+  width: 50%;
+}
+
+.max-price {
+  text-align: right;
+}
+
+.price-controls input {
+  font-family: 'Roboto', 'Arial', sans-serif;
+  font-size: 16px;
+  width: 60px;
+  margin-left: 10px;
+  padding: 8px 10px;
+  text-align: center;
+  color: #283136;
+  border: none;
+  border-radius: 5px;
+  background: #eeeeee;
+}
+
+.grid {
+  margin-top: 62px;
+}
+
+.grid-list {  
   padding: 0;
+  list-style: none;
 }
 
 input[type="radio"] {
@@ -611,6 +688,10 @@ input[type="radio"]:checked + label::after {
   width: 25px;
   height: 25px;
   background-position: -5px -219px;
+}
+
+.qualities {
+  margin-top: 50px;
 }
 
 .qualities-list {
@@ -657,6 +738,22 @@ input[type="checkbox"]:checked + label::after {
   height: 23px;
   background-position: -5px -63px;
 }
+
+button[type="submit"] {
+  width: 260px;
+  padding: 16px 0;
+  margin-top: 50px;  
+  font-weight: 500;
+  text-transform: uppercase;
+  text-align: center;
+  text-decoration: none;
+  color: #000000;
+  background: #eeeeee;
+  border: none;
+  border-radius: 3px;
+}
+
+
 
 .right-column {
   float: right;

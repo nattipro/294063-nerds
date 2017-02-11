@@ -36,18 +36,25 @@
 	  </div>	  
 	</header>
 	<main class="container clearfix">	  
-	  <form class="filter">
-	    <div class="price">
-	      <label>
+	  <form class="filter" action="" method="GET">
+	  <label>
 	        <b>Стоимость:</b>
-	        <input type="range" min="0" max="15000" value="10000" step="1">
-	      </label>
-	        <br>от
-	        <input type="text" name="min-price" value="0">
-	        до
-	        <input type="text" name="max-price" value="15000">	      
+	   </label>
+	    <div class="range-filter">	      
+	        <div class="range-controls">
+	          <div class="scale">
+                <div class="bar"></div>
+                <div class="toggle toggle-min"></div>
+                <div class="toggle toggle-max"></div>
+              </div>
+	        </div>
+	        <div class="price-controls">
+	          <label class="min-price">от <input name="min-price" type="text" value="0"></label>
+              <label class="max-price">до <input name="max-price" type="text" value="15000"></label>	          
+	        </div>      
 	    </div>
 	    <div class="grid">
+	      <b>Сетка:</b>
 	      <ul class="grid-list">
             <li>              
                <input type="radio" name="grid-groups" value="adaptive" id="rd1">
