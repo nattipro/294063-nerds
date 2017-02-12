@@ -789,14 +789,13 @@ button[type="submit"] {
 }
 
 
-/*  Треугольники и "по цене" почему не получаются?
 .sort-type::before {
   position: absolute;
-  width: 9;
-  height: 9;
-  left: 390px;
-  bottom: 0;
-  background-color: #a22566;
+  width: 0;
+height: 0;
+border-style: solid;
+border-width: 0 100px 100px 100px;
+border-color: transparent transparent #000000 transparent;
 }
 
 .sort-type a:not([href]) {
@@ -815,13 +814,18 @@ button[type="submit"] {
   margin-bottom: 36px;
 }
 
-.product-card-head {
-  margin-bottom: 0;
-  padding: 0;
+.product-card-head { 
+  display: block;
+  opacity: 0.12;
+
 }
 
 .product-card:nth-child(2n) {
   margin-right: 0;
+}
+
+.product-descr:hover {
+
 }
 
 .paginator {
