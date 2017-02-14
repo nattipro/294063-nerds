@@ -21,7 +21,7 @@ body {
 }
 
 .main-header {
-  margin-bottom: 57px;
+  margin-bottom: 80px;
   color: #000000;
   background-color: #eeeeee;
 }
@@ -29,7 +29,7 @@ body {
 .main-navigation {
   float: left;
   width: 960px;
-  margin-right: 40px;
+  margin-right: 41px;  
 }
 
 .main-navigation ul {
@@ -41,8 +41,8 @@ body {
 
 .main-navigation li {
   display: inline-block;
-  padding-top: 75px; 
-  padding-right: 46px;
+  padding-top: 74px; 
+  padding-right: 47px;
   font-size: 16px;
   line-height: 30px;
   font-weight: 500;      /*medium*/
@@ -63,7 +63,7 @@ body {
 .main-logo {
   float: left;
   width: 160px;
-  margin-right: 40px;
+  margin-right: 41px;
 }
 
 .main-logo img {
@@ -152,14 +152,13 @@ body {
 }
 
 .sliders {
-  float: left;
-  
+  float: left;  
 }
 
 .slider{
     position: relative;
     width: 1160px;
-    height: 430px;
+    height: 427px;
     margin: 0 auto;
 }
 
@@ -170,22 +169,22 @@ body {
 
 .slider-controls{
     position: absolute;
-    bottom: 95px;
+    bottom: 106px;
     left: 50%;
     width: 200px;
     height: 10px;
-    margin-left: -100px;
+    margin-left: -99px;
     text-align: center;
     z-index: 1000;
 }
 
 .slider-controls label{
     display: inline-block;
-    width: 4px;
-    height: 4px;
-    margin: 0 3px;
+    width: 8px;
+    height: 8px;
+    margin: 0 7px;
     background: white;
-    border: 3px solid white;
+    border: 5px solid white;
     vertical-align: top;
     border-radius: 50%;
     cursor: pointer;
@@ -208,7 +207,7 @@ body {
 
 .slide-text{
     width: 560px;
-    padding: 85px 0;
+    padding: 75px 0;
     color: #283136; 
 }
 
@@ -220,26 +219,31 @@ body {
 }
 
 .slide-text p {
+  padding-top: 9px;
+  padding-bottom: 14px;
   line-height: 24px;
+}
 
+.slide-text a {
+  margin-top: 25px;
 }
 
 .slide:nth-child(1){
-    background-image: url("../img/slide1.png");
-    background-repeat: no-repeat;
-    background-position: 100% 100%;
+  background-image: url("../img/slide1.png");
+  background-repeat: no-repeat;
+  background-position: 94% 100%;
 }
 
 .slide:nth-child(2){
-    background-image: url("../img/slide2.png");
-    background-repeat: no-repeat;
-    background-position: 100% 100%;
+  background-image: url("../img/slide2.png");
+  background-repeat: no-repeat;
+  background-position: 100% 100%;
 }
 
 .slide:nth-child(3){
-    background-image: url("../img/slide3.png");
-    background-repeat: no-repeat;
-    background-position: 100% 10px;
+  background-image: url("../img/slide3.png");
+  background-repeat: no-repeat;
+  background-position: 100% 10px;
 }
 
 .slide{
@@ -261,9 +265,7 @@ body {
 .btn{
     display: block;
     width: 240px;
-    padding: 10px 0;
-    margin-top: 25px;
-    font-size: 12px;
+    padding: 16px 0;        
     color: white;
     text-transform: uppercase;
     text-align: center;
@@ -283,22 +285,30 @@ body {
 
 .advantages {
   padding-bottom: 80px;
+  border-bottom: 2px solid #eeeeee;
 }
 
 .advantages-item {
   float: left;
+  margin: 0;
+  padding: 0;
   width: 300px;  
   margin-right: 100px;
 }
 
 h3 {
+  margin-top: 22px;
   font-size: 24px;
   line-height: 30px;
+  font-weight: bold;
   text-transform: uppercase;
 }
 
 .advantages-item p {
+  margin-top: -10px;
+  margin-bottom: 33px;
   font-size: 16px;
+  font-weight: 400;
   line-height: 24px;
   color: #283136;
 }
@@ -342,22 +352,27 @@ h3 {
 	margin-right: 60px;
 }
 
+.about-us {
+  border-bottom: 2px solid #eeeeee;
+}
+
 .about-left {
 	float: left;
 	width: 660px;
-	margin-top: 80px;
+	margin-top: 74px;
+  margin-right: 141px;
 }
 
 .about-title {
   margin: 0;
-  margin-bottom: 35px;
+  margin-bottom: 33px;
   font-size: 45px;
   line-height: 45px;
   font-weight: 500;
 }
 
 .about-text {
-  margin-bottom: 43px;
+  margin-bottom: 38px;
   line-height: 24px;
   color: #283136;
 }
@@ -377,8 +392,8 @@ h3 {
 }
 
 .scroll li {
-  padding-left: 32px;
-  padding-top: 35px;
+  padding-left: 37px;
+  padding-top: 25px;
   position: relative;
   font-size: 16px;
   line-height: 24px;
@@ -396,14 +411,14 @@ h3 {
 }
 
 .about-right {
-	float: right;
+	float: left;
 	width: 360px;
 	margin-top: 40px;
-	margin-bottom: 80px;
+	margin-bottom: 62px;
 }
 
 .about-right .topic {
-  margin-top: 40px;
+  margin-top: 32px;
   line-height: 24px;
   font-weight: bold;
   text-align: center;
@@ -420,15 +435,14 @@ h3 {
 .about-right li {
   display: inline-block;
   width: 105px;
-  margin-top: 50px;
-  padding-right: 20px;
+  margin-top: 25px;
+  padding-right: 14px;
   vertical-align: top;
 }
 
 .about-right li:last-child {
   padding-right: 0;
 }
-
 
 .percent b {
   font-size: 45px;
@@ -438,15 +452,50 @@ h3 {
 .percent p {
   font-size: 16px;
   line-height: 18px;
+  font-weight: 400;
+}
+
+.partners {
+  border-bottom: 2px solid #eeeeee;
 }
 
 .partners > a {
 	float: left;
-	width: 265px;	
-	margin-right: 40px;
-  padding: 40px 0;
+	width: 260px;	
+  position: relative;
+	margin-right: 20px;
+  padding-right: 20px;
   text-align: center;
-  opacity: 0.2;  
+  opacity: 0.2;
+
+
+}
+
+.partners > a::after {
+  content: "";
+  position: absolute;
+  right: 0;
+  top: 50%;
+  width: 2px;
+  height: 52px;
+  background-color: #eeeeee;
+}
+
+.partners > a:first-child {
+  padding-top: 62px;
+}
+
+.partners > a:nth-child(2) {
+  padding-top: 46px;
+  padding-bottom: 44px;
+}
+
+.partners > a:nth-child(3) {
+  padding-top: 65px;
+}
+
+.partners > a:last-child {
+  padding-top: 52px;
 }
 
 .partners > a:hover {
