@@ -227,6 +227,7 @@ body {
 
 .slide-text a {
   margin-top: 25px;
+  outline: none;
 }
 
 .slide:nth-child(1){
@@ -538,6 +539,7 @@ h3 {
   background: #fb565a;
   border: none;
   border-radius: 3px;
+  outline: none;
 }
  
  .footer-social {
@@ -737,6 +739,7 @@ margin-bottom: 108px;
   border: none;
   border-radius: 5px;
   background: #eeeeee;
+  outline: none;
 }
 
 .grid {
@@ -788,6 +791,12 @@ input[type="radio"]:checked + label::after {
   background-position: -5px -219px;
 }
 
+input[type="radio"]:disabled + label {
+  opacity: 0.1;
+}
+
+
+
 .qualities {
   margin-top: 50px;
 }
@@ -808,6 +817,10 @@ input[type="checkbox"] + label {
   padding-left: 35px;
   position: relative;
   cursor: pointer;
+}
+
+input[type="checkbox"]:disabled + label {
+  opacity: 0.1;
 }
 
 input[type="checkbox"] + label::before {
@@ -849,6 +862,7 @@ button[type="submit"] {
   background: #eeeeee;
   border: none;
   border-radius: 3px;
+  outline: none;
 }
 
 button[type="submit"]:hover {
@@ -858,6 +872,7 @@ button[type="submit"]:hover {
 button[type="submit"]:active {
   background-color: #d5d5d5;
   color: #959595;
+  box-shadow: inset 0 3px #bfbfbf;
 }
 
 .right-column {
@@ -918,6 +933,15 @@ button[type="submit"]:active {
   border-style: solid;
   border-width: 9px 4.5px 0 4.5px;
   border-color: #000000 transparent transparent transparent;
+  opacity: 0.2;
+}
+
+.sort-type:hover::before {
+  opacity: 0.4;
+}
+
+.sort-type:active::before {
+  opacity: 1;
 }
 
 .sort-type::after {
@@ -930,6 +954,15 @@ button[type="submit"]:active {
   border-style: solid;
   border-width: 0 4.5px 9px 4.5px;
   border-color: transparent transparent #000000 transparent;  
+  opacity: 0.2;
+}
+
+.sort-type:hover::after {
+  opacity: 0.4;
+}
+
+.sort-type:active::after {
+  opacity: 1;
 }
 
 .sort-type a:not([href]) {
@@ -949,8 +982,7 @@ button[type="submit"]:active {
 }
 
 .product-card-head { 
-  display: block;
-  border-radius: 3px;
+  display: block; 
   opacity: 0.12;
 }
 
@@ -1006,6 +1038,10 @@ button[type="submit"]:active {
   color: #ffffff;
 }
 
+.product-card:hover {
+  box-shadow: 0 0  15px 6px rgba(0,1,1,0.3);  
+}
+
 .product-card:hover .product-descr{
    display: block;
 }
@@ -1049,11 +1085,11 @@ button[type="submit"]:active {
 }
 
 .num:active {
-  width: 44px;
-  padding: 13px 0;
-  background-color: #d5d5d5;
-  border: 3px solid #dbdbdb;
+  width: 50px;
+  padding: 16px 0;
+  background-color: #d5d5d5;  
   color: #959595;
+  box-shadow: inset 0 3px #bfbfbf;
 }
 
 
