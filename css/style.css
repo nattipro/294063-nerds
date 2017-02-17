@@ -1099,6 +1099,41 @@ button[type="submit"]:active {
 
 /* Всплывающая форма */
 
+
+
+@keyframes bounce { 
+  0%   {
+    transform: translateX(-2000px);
+  }
+  70%  {
+    transform: translateX(50px);
+  }
+  90%  {
+    transform: translateX(-20px);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+@keyframes shake {
+   0%, 100% {
+    transform: translateY(0);
+  }
+  10%, 30%, 50%, 70%, 90% {
+    transform: translateY(-10px);
+  }
+  20%, 40%, 60%, 80% {
+    transform: translateY(10px);
+  }
+}
+
+
+
+
+
+
+
 .modal-content {
   position: absolute;
   top: 1706px;
@@ -1114,6 +1149,21 @@ button[type="submit"]:active {
   background-color: #ffffff;
   box-shadow: 0 20px 40px rgba(0, 1, 1, 0.7);
 
+}
+
+.catalog-modal-content {
+  position: absolute;
+  top: 2489px;
+  left: 50%;
+}
+
+.modal-content-show {
+  display: block;
+  animation: bounce 0.6s;
+}
+
+.modal-error {
+  animation: shake 0.6s;
 }
 
 .modal-content-close {
@@ -1223,13 +1273,6 @@ textarea:focus {
   background-color: #fb565a;
   color: #ffffff;
 }
-
-
-
-
-
-
-
 
 
 
