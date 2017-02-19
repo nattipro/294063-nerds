@@ -498,12 +498,14 @@ h3 {
 	margin-right: 0;
 }
 
-.footer-contacts {
-  
+.footer-contacts {  
   height: 416px;
   background-image: url("../img/map.jpg");
   background-repeat: no-repeat;
   background-position: 212px 0;
+}
+
+iframe { padding-left: 212px;
 }
 
 .contacts {
