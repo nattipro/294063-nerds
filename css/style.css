@@ -1,6 +1,7 @@
 body {	
 	margin: 0;
 	padding: 0;	
+  min-width: 1440px;
   font-size: 16px;    
   line-height: 18px;
   font-weight: 500;
@@ -19,6 +20,7 @@ body {
   width: 1200px;
   margin: 0 auto;
   padding: 0 20px;
+  position: relative;
 }
 
 .main-header {
@@ -504,17 +506,18 @@ h3 {
   background-image: url("../img/map.jpg");
   background-repeat: no-repeat;
   background-position: 212px 0;
-  position: relative;
 }
 
+iframe {
+  width: 100%;
+}
 .contacts {
-	float: left;
 	width: 219px;
   margin: 53px 0; 	
   padding: 50px;
   position: absolute;
-  top: 0;
-  left: 350px;
+  top: -420px;
+  left: 20px;
   
   background-color: #ffffff;	
 }
